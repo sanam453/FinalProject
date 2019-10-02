@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by anonymous (http://jsbin.com/kiqeyobeci/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+*{
+   margin:0;
+  padding:0;
+}
+
+body{
+  font-family: arial;
+}
+h1{
+  font-size:50px;
+  color:red;
+  margin:70px 0 0 30px;
+  position:absolute;
+}
+header h1:hover{
+  color:#fff;
+}
+nav ul{
+  float:right;
+}
+nav ul{
+  position:absolute;
+  display:flex;
+  list-style:none;
+  padding:20px 0 0 30px;
+}
+nav ul li a{
+  padding: 0 5px 0 5px;
+  text-decoration:none;
+  font-size:20px;
+  color: red;
+}
+nav ul li a:hover{
+  border-bottom: 2px solid #fff;
+  padding-bottom:3px;
+}
+main marquee{
+  text-align:center;
+  color:orange;
+  width:100%;
+  font-size:28px;
+  margin:30px 0 30px 0;
+}
+main p{
+  text-align:center;
+}
+.image img{
+  width:100%;
+  height:auto;
+}
+#ingredients{
+  width:65%;
+  margin:0 auto;
+  padding:30px;
+  background-color:#FFFAFA;
+}
+#ingredients h1{
+  padding-bottom:30px;
+  color: #000;
+  text-align:center;
+}
+#ingredients img{
+  height:300px;
+  width:400px;
+  float:left;
+  margin-right:200px;
+  transition: all 1s;
+}
+#ingredients img:hover{
+  transform:scale(1.1);
+}
+#ingredients ul li{
+    padding:15px;
+  list-style-type: square; 
+}
+#howTo h2{
+  color: #330867;
+  margin:50px 50px;
+  text-align:center;
+}
+#howTo ol{
+  margin-left:140px;
+}
+#howTo ol li{
+  padding: 3px;
+  list-style-type: upper-roman;
+}
+#dish-test span{
+  font-size: 40px;
+  color: orange;
+}
+#dish-test{
+  text-align:center;
+}
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.links {
+  text-align:center;
+  margin: 0 auto;
+  width:50%;
+}
+.links a{
+  text-decoration:none;
+}
+footer h2{
+  padding:20px;
+  text-align:center;
+}
+footer{
+  text-align:center;
+  width:50%;
+  margin: 0 auto;
+}
+form input{
+  width:320px;
+  height:30px;
+  border-radius:30px;
+  padding:10px;
+  margin:5px;
+  outline:0;
+  background:#FFFFF0;
+}
+form input[type="submit"]{
+  width:100px;
+  height:50px;
+  background-color:green;
+  color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+ 
+ <!--my navigation list -->
+  <nav>
+    <ul>
+      <li><a href="">Home<a/></li>
+      <li><a href="">Ingredients<a/></li>
+      <li><a href="">How To</a></li>
+    </ul>
+  </nav>
+   <!-- End of my navigation list -->
+  
+   <!--my Header -->
+  <header>
+    <h1>OMELET</h1>
+  </header>
+   <!--End of my Header -->
+  
+   <!--main Image -->
+  <section class="image">
+    <img src=" https://a-static.besthdwallpaper.com/egg-omelet-wallpaper-3200x900-3218_74.jpg">
+  </section>
+  
+  <br><br>
+  
+  <main>
+     <marquee>What came first the chicken or the egg?</marquee>
+ <p>
+      Because it’s a nutritious treat,
+though relatively small in size, eggs pack a lot of nutrition and can be an important staple in a well-balanced diet.
+    </p>
+  </main> 
+  <br>
+   
+  <!-- Ingredients -->
+  <section id="ingredients">
+     <h2>Ingredients</h2>
+      <br><br>
+        <img src="https://recipenijuan.com/wp-content/uploads/2017/05/Pinoy-Omelet-Ingredients.jpg">
+     <ul>
+        <li>Egg</li>
+        <li>Pepper</li>
+        <li>Salt</li>
+        <li>Butter</li>
+       <li>Salt</li>
+        <li>Butter</li>
+      </ul>  
+  </section>
+  <br>
+  
+  <!-- How to make -->
+  <section id="howTo">
+    <h2>How To C👀K ?</h2>
+     <ol>
+        <li>BEAT eggs, water, salt and pepper in small bowl until blended.🥚</li>
+        <li>HEAT butter in nonstick pan ,over medium-high heat until hot.🍳</li>
+        <li>POUR IN egg mixture.😊</li>
+       <li>CONTINUE cooking, tilting pan👍</li>
+       <li> With a quick flip of the wrist, turn pan and INVERT or SLIDE omelet onto plate.🍽</li>
+       <li>SERVE immediately.🤩</li>
+      </ol>
+  </section>
+  
+   <!-- Final -->
+  <section class="final-version">
+  <p id="dish-test">The dish should look like an <span>Omelte 😝</span>, it's should also taste like the Omelet 😂 and either smell.</p>
+    <br>
+  <img src="https://media1.tenor.com/images/5c3c7399f14707278d8b2c7582f8b63f/tenor.gif?itemid=7690568" class="center">
+  </section>
+  <br>
+ <br>
+  
+  <section class="links">
+    <h2>Comparing Recipies</h2><br>
+    <a href="https://www.youtube.com/watch?v=RzPglg7KcnI">Easy Cheesy Omelet Recipe</a><br>
+    <a href="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT2lTDGZGTkVU7FS34sfO3hqPovwRnFPh2FK9ShioKq6QJpMDZo">
+      5 Egg-Cellent Omelet Recipes
+    </a>
+    <a href="https://encrypted-vtbn2.gstatic.com/video?q=tbn:ANd9GcS5iI1Yt26_iFf6Lf1-2f2i6tIXnu5HLEeF2b-F9Qa4hQhoo1Et"><br>
+      Vegetable Cheese Omelet Recipe
+    </a>
+    <a href="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_G2UdhCYSQ5kBR2SxBXemBXh210G0nolUhInGNJCIHfj1Ebd0"><br>
+      Easy Omelet
+    </a>
+    <a href="https://encrypted-vtbn2.gstatic.com/video?q=tbn:ANd9GcQxrQayWZ6XvZmyP-BW4rG8kSIkvK0p68dgGUTxeP0MCT4ynhbT"><br>
+      Celeberity Omelet Recipe
+    </a>
+    
+  </section>
+  
+   <!--my Footer -->
+  <footer>
+    <h2>Contact Us Here</h2>
+    
+    <form method="get" action="">
+      <label for="name">Name:</label><br>
+      <input type="text" name="name" placeholder="enter your name"><br>
+      <label for="name">Email:</label><br>
+      <input type="email" name="email" placeholder="enter your email"><br>
+      <label for="name">Address:</label><br>
+      <input type="text" name="add" placeholder="enter your address"><br>
+      <input type="submit" value="Submit now" />
+    </form>
+  </footer>
+    <!--End of my Footer -->
+</body>
+</html>
